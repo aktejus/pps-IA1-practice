@@ -3,14 +3,14 @@
 float input()
 {
     float n;
-    printf("enter the number to find its root:\n");
+    printf("enter the number to find its root\n");
     scanf("%f",&n);
     return n;
 }
 float my_sqrt(float n) 
 { 
     float a=n;  
-    float b;
+    float b=0;
     float q=0.000001; 
     while (fabs(a-b)>q)
     { 
