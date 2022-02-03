@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int input_n()
 {
   int n;
@@ -21,8 +20,7 @@ void output(int n, int sum)
   int i;
   for(i=1;i<n;i++)
   {
-    printf("%d + ",i);
-    
+    printf("%d + ",i);  
   }
   printf("%d is %d",i,sum);
 }
